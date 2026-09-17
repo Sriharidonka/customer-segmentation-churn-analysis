@@ -187,6 +187,12 @@ Customer Segmentation and Churn Analysis/
 │   ├── Bank_Churn_Feature_Engineered.csv
 │   └── Bank_Churn_Risk_Segmented.csv
 │
+├── Images/
+│   ├── overview.png
+│   ├── Risk Analysis.png
+│   ├── Priority segment.png
+│   └── Customer explorer.png
+│
 ├── Notebooks/
 │   └── Bank_Churn_Analysis.ipynb
 │
@@ -197,18 +203,18 @@ Customer Segmentation and Churn Analysis/
 ├── Reports/
 ├── .gitignore
 └── README.md
-
-## 🚀 How to Run
-
-### 1. Clone the Repository
-
-```bash
+🚀 How to Run
+1. Clone the Repository
 git clone <your-repository-url>
 cd "Customer Segmentation and Churn Analysis/Streamlit"
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 python -m streamlit run app.py
+
+The dashboard will open at:
+
+http://localhost:8501
 
 👨‍💻 Author
 
