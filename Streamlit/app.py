@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+from pathlib import Path
 
 
 # ==================================================
@@ -87,9 +88,9 @@ def style_chart(fig):
 def load_data():
 
     try:
-        df = pd.read_csv(
-            "../Dataset/Bank_Churn_Risk_Segmented.csv"
-        )
+        DATA_PATH = Path(__file__).resolve().parent.parent / "Dataset" / "Bank_Churn_Risk_Segmented.csv"
+
+        df = pd.read_csv(DATA_PATH)
 
         return df
 
