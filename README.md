@@ -205,7 +205,7 @@ Customer Segmentation and Churn Analysis/
 └── README.md
 🚀 How to Run
 1. Clone the Repository
-git clone <your-repository-url>
+git clone https://github.com/Sriharidonka/customer-segmentation-churn-analysis.git
 cd "Customer Segmentation and Churn Analysis/Streamlit"
 python -m venv .venv
 .venv\Scripts\activate
